@@ -9,8 +9,8 @@
 }
 .pay-monthly-container{
   border: 1px solid #63dbd3;
-  padding: 5px;
-  border-radius: 12px;
+  padding: 8px;
+  border-radius: 30px;
   
   display: none;
 }
@@ -21,6 +21,8 @@
     color: #ffffff;
     font-weight: 400;
     font-size: 12px;
+    border: none;
+    margin-right: 8px;
 }
 .pay-monthly-text{
   color: #000000;
