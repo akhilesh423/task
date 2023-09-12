@@ -1,0 +1,104 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 255, .2);;
+    padding: 0 100px;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.navbar-image-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: flex-start;
+}
+.list-items-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+}
+.list-item{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.logo{
+    height: 50px;
+    flex-shrink: 0;
+    background-color: transparent;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.shopify{
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 600;
+    font-style: 22px;
+    margin: 0px 30px 0 -25px;
+}
+.login-btn{
+    background-color: transparent;
+    border: none;
+    font-family: "Roboto";
+    color: #000;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.free-trail-btn{
+    background-color: #000;
+    border-radius: 18px;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px;
+    color: #ffffff;
+    min-width: 100px;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+
+}
+.small-devices-menu{
+    display: none;
+}
+
+
+@media (max-width: 768px){
+    .list-items-container{
+        display: none;
+    }
+    .buttons-container{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 2px 1px 2px 1px rgba(0, 0, 255, .2);
+        padding: 10px;
+    }
+    .free-trail{
+        text-decoration: underline;
+        color: #000;
+        font-size: 15px;
+    }
+    .menu{
+        color: #000000;
+        margin-left: 15px;
+    }
+    .small-devices-menu{
+        display: flex;
+    }
+}

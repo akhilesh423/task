@@ -1,0 +1,145 @@
+
+.card{
+    border: none;
+    border-radius: 10px;
+    width: 100%; 
+}
+.card-main-div{
+    width: 100%;
+}
+.most-popular{
+    margin: 0 auto -13px;
+    background: #63dbd3;
+    font-family: "Roboto";
+    color: #000;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 2;
+    font-size: 13px;
+    padding: 5px;
+    display: none;
+}
+.buy-static{
+    padding: 5px;
+    border-bottom: 1px solid #bef4f7;
+    border-top: 1px solid #bef4f7;
+    background-color: #bfebf4;
+}
+.buy-static-text{
+    text-align: center;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+}
+.features-list-item{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.check-icon{
+    color: #63dbd3;
+    width: 30px;
+}
+.features-list-container{
+    padding-left: 0px;
+    padding: 15px;
+}
+.card-main-div{
+    display: flex;
+    flex-direction: column;
+}
+.card-name{
+    font-family: "Roboto";
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-upper-text-container{
+    padding: 15px;
+    display: none;
+}
+.heading{
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+}
+.small-devices-price{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 15px;
+}
+.span-price{
+    font-size: 15px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.free-button{
+    background-color: #000000;
+    padding: 14px;
+    width: 100%;
+    border-radius: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+.card-bottom-container{
+    padding: 10px;
+}
+
+
+.description{
+    color: #1e293b;
+    font-family: "Roboto";
+    font-size: 14px;
+    width: 95%;
+}
+.large-price{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+.span-large{
+    font-size: 14px;
+    color: #212121;
+    font-weight: 500;
+}
+.feature-text{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #0f0f0f;
+    font-size: 15px;
+}
+.features-heading{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+}
+@media (min-width: 768px){
+    .most-popular{
+        display: block;
+    }
+    .card-main-div{
+        width: 30%;
+        max-width: 320px;
+    }
+    .card{
+        border: 1px solid #63dbd3;
+    }
+    .card-upper-text-container{
+        display: block;
+    }
+    .small-devices-price{
+        display: none;
+    }
+    .card-light{
+        border: 1px solid #ffffff;
+        box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+        border-radius: 10px;
+    }
+}

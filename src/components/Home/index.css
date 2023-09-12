@@ -1,0 +1,38 @@
+
+
+.tabs-container{
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.large-devices-cards{
+   display: none;
+}
+.small-devices-cards{
+    display: block;
+}
+
+.large-card-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 768px){
+    .tabs-container{
+        display: none;
+    }
+    .large-devices-cards{
+        display: flex;
+       align-items: center;
+      justify-content: space-around;
+      width: 100%;
+    }
+    .small-devices-cards{
+        display: none;
+    }
+}
